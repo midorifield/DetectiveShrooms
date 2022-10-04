@@ -9,7 +9,7 @@ public class BottomBarController : MonoBehaviour
     public TextMeshProUGUI personNameText;
 
     private int sentenceIndex = -1;
-    private StoryScene currentScene;
+    public StoryScene currentScene;
     private State state = State.COMPLETED;
 
     private enum State
@@ -18,6 +18,7 @@ public class BottomBarController : MonoBehaviour
     }
 
     
+    // Start is called before the first frame update
     public void PlayScene(StoryScene scene)
     {
         currentScene = scene;
