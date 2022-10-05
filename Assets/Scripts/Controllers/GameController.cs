@@ -2,14 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameController : MonoBehaviour
+public class GameController : MonoBehaviour, IPointerClickHandler
 {
+
     public StoryScene currentScene;
     public BottomBarController bottomBar;
 
+    
+    public void PlayNextStoryScene(){
+
+        bottomBar.PlayScene(currentScene);
+
+    }
+
     void Start()
     {
-        bottomBar.PlayScene(currentScene);
+        PlayNextStoryScene();
     }
 
     void Update()
@@ -30,4 +38,5 @@ public class GameController : MonoBehaviour
             }
         }
     }
+
 }

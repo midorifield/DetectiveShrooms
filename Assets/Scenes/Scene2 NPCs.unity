@@ -707,7 +707,7 @@ GameObject:
   - component: {fileID: 1465351621}
   - component: {fileID: 1465351623}
   m_Layer: 5
-  m_Name: BottomBar
+  m_Name: bottomBar
   m_TagString: UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -798,6 +798,7 @@ GameObject:
   - component: {fileID: 1771913835}
   - component: {fileID: 1771913834}
   - component: {fileID: 1771913833}
+  - component: {fileID: 1771913836}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -870,6 +871,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1771913836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771913832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56666c5a40171f54783dd416a44f42bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_MaxRayIntersections: 0
 --- !u!1 &1852051988
 GameObject:
   m_ObjectHideFlags: 0
@@ -1050,7 +1067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneLoadButton: 323
-  sceneToLoad: 
+  sceneToLoad: Scene2
 --- !u!61 &2142316281
 BoxCollider2D:
   m_ObjectHideFlags: 0
