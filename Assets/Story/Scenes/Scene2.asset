@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - text: This is scene 2!!!!
-    speaker: {fileID: 0}
-  background: {fileID: 21300000, guid: c89444c249164c644af0e1cecf2daa15, type: 3}
+    speaker: {fileID: 11400000, guid: d106ae31a6bc9db4b9bafd2bc518acf5, type: 2}
+  background: {fileID: 21300000, guid: 6ebd0d172447b7f45a69981c2f4a8b04, type: 3}
   nextScene: {fileID: 0}
