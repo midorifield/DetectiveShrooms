@@ -379,7 +379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5a431f3b83ce874d9c5174365f51876, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentScene: {fileID: 11400000, guid: f2353323a77602a43999d5ea6649fdef, type: 2}
+  currentScene: {fileID: 11400000, guid: f7d249c8cababeb4382c9f9630e40abe, type: 2}
   bottomBar: {fileID: 1465351623}
 --- !u!1 &1021461870
 GameObject:
@@ -712,7 +712,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1465351620
 RectTransform:
   m_ObjectHideFlags: 0
@@ -885,7 +885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EventMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 51
   m_MaxRayIntersections: 0
 --- !u!1 &1852051988
 GameObject:
@@ -1066,8 +1066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 148e06f0cefb7f544bad4b9b26099c9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneLoadButton: 323
-  sceneToLoad: Scene2
+  controller: {fileID: 0}
 --- !u!61 &2142316281
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1078,7 +1077,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
