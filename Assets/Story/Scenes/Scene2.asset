@@ -15,7 +15,7 @@ MonoBehaviour:
   sentences:
   - text: "You, there. What\u2019s your name? I\u2019m investigating a suspicious
       person in this town."
-    speaker: {fileID: 11400000, guid: 8f17809036deb104fbb780325654f261, type: 2}
+    speaker: {fileID: 11400000, guid: cd9674a0119e8fc4c9ff65d088983eb0, type: 2}
   - text: "Huh? Me? A SUSPICIOUS PERSON? You\u2019ve got the wrong guy!"
     speaker: {fileID: 11400000, guid: d106ae31a6bc9db4b9bafd2bc518acf5, type: 2}
   - text: "No, not you! I\u2019m looking into a certain individual by the name of
