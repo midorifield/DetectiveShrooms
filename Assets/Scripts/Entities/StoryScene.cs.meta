@@ -3,7 +3,9 @@ guid: 51fb4c6070f247e48b4377b5728b8182
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - background: {instanceID: 0}
+  - nextScene: {fileID: 11400000, guid: f7d249c8cababeb4382c9f9630e40abe, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
