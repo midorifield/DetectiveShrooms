@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences: []
   background: {fileID: 0}
-  nextScene: {fileID: 11400000, guid: f7d249c8cababeb4382c9f9630e40abe, type: 2}
+  nextScene: {fileID: 0}

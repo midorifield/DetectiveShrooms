@@ -21,8 +21,9 @@ public class BottomBarController : MonoBehaviour
     // Start is called before the first frame update
     public void PlayScene(StoryScene scene)
     {
-        if (state != State.PLAYING) { 
-        currentScene = scene;
+        if (state != State.PLAYING) {
+            Debug.Log(scene);
+            currentScene = scene;
         sentenceIndex = -1;
         PlayNextSentence();
          }
@@ -54,7 +55,6 @@ public class BottomBarController : MonoBehaviour
         while (state != State.COMPLETED)
         {
             barText.text += text[wordIndex];
-            Debug.Log(wordIndex);
             yield return new WaitForSeconds(0.05f);
             if(++wordIndex == text.Length)
             {

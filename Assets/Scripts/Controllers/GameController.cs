@@ -11,7 +11,7 @@ public class GameController : MonoBehaviour
 
     
     public void PlayNextStoryScene(){
-
+        Debug.Log(currentScene);
         bottomBar.GetComponent<RectTransform>().localScale = new Vector3(0.6f,0.8f,0.8f);
         bottomBar.PlayScene(currentScene);
 
@@ -30,8 +30,8 @@ public class GameController : MonoBehaviour
             {
                 if (bottomBar.IsLastSentence())
                 {
-                    currentScene = currentScene.nextScene;
-                    bottomBar.PlayScene(currentScene);
+                    // currentScene = currentScene.nextScene;
+                    // bottomBar.PlayScene(currentScene);
                     bottomBar.GetComponent<RectTransform>().localScale = new Vector3(0f,0f,0f);
                 }
                 else
@@ -40,6 +40,11 @@ public class GameController : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void SetCurrentScene(StoryScene newScene)
+    {
+        currentScene = newScene;
     }
 
 }

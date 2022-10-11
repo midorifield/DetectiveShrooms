@@ -339,6 +339,18 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1020002406}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: SetCurrentScene
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: cd5a81295218ea644a2d6fd30552bd29, type: 2}
+          m_ObjectArgumentAssemblyTypeName: StoryScene, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1020002406}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: PlayNextStoryScene
         m_Mode: 1
         m_Arguments:
@@ -527,7 +539,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -134, y: 62}
+  m_AnchoredPosition: {x: -133.99994, y: 62}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &539503239
@@ -781,7 +793,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5a431f3b83ce874d9c5174365f51876, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentScene: {fileID: 11400000, guid: f7d249c8cababeb4382c9f9630e40abe, type: 2}
+  currentScene: {fileID: 0}
   bottomBar: {fileID: 1465351623}
 --- !u!114 &1020002407
 MonoBehaviour:
@@ -951,6 +963,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1020002406}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: SetCurrentScene
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: f7d249c8cababeb4382c9f9630e40abe, type: 2}
+          m_ObjectArgumentAssemblyTypeName: StoryScene, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1020002406}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: PlayNextStoryScene
@@ -1175,7 +1199,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   barText: {fileID: 1852051990}
   personNameText: {fileID: 539503239}
-  currentScene: {fileID: 11400000, guid: f7d249c8cababeb4382c9f9630e40abe, type: 2}
+  currentScene: {fileID: 0}
 --- !u!1 &1771913832
 GameObject:
   m_ObjectHideFlags: 0
