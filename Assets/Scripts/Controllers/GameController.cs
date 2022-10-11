@@ -12,7 +12,7 @@ public class GameController : MonoBehaviour
     
     public void PlayNextStoryScene(){
 
-        bottomBar.GetComponent<RectTransform>().localScale = new Vector3(0.6f,1f,1f);
+        bottomBar.GetComponent<RectTransform>().localScale = new Vector3(0.6f,0.8f,0.8f);
         bottomBar.PlayScene(currentScene);
 
     }
