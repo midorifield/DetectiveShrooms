@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: Scene4
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: 'Hello, sir. I believe you are Mr. Tomato? '
+    speaker: {fileID: 11400000, guid: 8f17809036deb104fbb780325654f261, type: 2}
+  - text: Hello! Have we met before?
+    speaker: {fileID: 11400000, guid: b51eb36c2651eeb4687a9779d3a33c1a, type: 2}
+  - text: "The name\u2019s Shrooms. Detective Shrooms. "
+    speaker: {fileID: 11400000, guid: 8f17809036deb104fbb780325654f261, type: 2}
+  - text: You have been the star of Mushtown for the past few days, Mr. Tomato.
+    speaker: {fileID: 11400000, guid: 8f17809036deb104fbb780325654f261, type: 2}
+  - text: "It\u2019s not every day we get new neighbors around here."
+    speaker: {fileID: 11400000, guid: 8f17809036deb104fbb780325654f261, type: 2}
+  - text: "Ah, you flatter me, Detective! \u2018S the first time I move somewhere
+      else."
+    speaker: {fileID: 11400000, guid: b51eb36c2651eeb4687a9779d3a33c1a, type: 2}
+  - text: "I\u2019m lucky I found such welcoming neighbors and a delightful village
+      to stay in! "
+    speaker: {fileID: 11400000, guid: b51eb36c2651eeb4687a9779d3a33c1a, type: 2}
+  - text: Indeed, Mushtown is a unique place.
+    speaker: {fileID: 11400000, guid: 8f17809036deb104fbb780325654f261, type: 2}
+  - text: "If you don\u2019t mind me asking, however\u2026 "
+    speaker: {fileID: 11400000, guid: 8f17809036deb104fbb780325654f261, type: 2}
+  - text: "You\u2019re different from any mushroom I have ever seen around here,
+      lad."
+    speaker: {fileID: 11400000, guid: 8f17809036deb104fbb780325654f261, type: 2}
+  - text: "Ah, that\u2019s because I\u2019m no mushroom, good sir!"
+    speaker: {fileID: 11400000, guid: b51eb36c2651eeb4687a9779d3a33c1a, type: 2}
+  - text: 'Miss Portobello thought that might be the case. '
+    speaker: {fileID: 11400000, guid: 8f17809036deb104fbb780325654f261, type: 2}
+  - text: Are you a vegetable, then?
+    speaker: {fileID: 11400000, guid: 8f17809036deb104fbb780325654f261, type: 2}
+  - text: Hah, some might say that.
+    speaker: {fileID: 11400000, guid: b51eb36c2651eeb4687a9779d3a33c1a, type: 2}
+  - text: "But I\u2019m actually\u2026 a fruit!"
+    speaker: {fileID: 11400000, guid: b51eb36c2651eeb4687a9779d3a33c1a, type: 2}
+  - text: Is that so?
+    speaker: {fileID: 11400000, guid: 8f17809036deb104fbb780325654f261, type: 2}
+  - text: Curious! I would never have thought you would be a fruit, Mr. Tomato.
+    speaker: {fileID: 11400000, guid: 8f17809036deb104fbb780325654f261, type: 2}
+  - text: Is that a problem?
+    speaker: {fileID: 11400000, guid: b51eb36c2651eeb4687a9779d3a33c1a, type: 2}
+  - text: 'Not at all, lad. '
+    speaker: {fileID: 11400000, guid: 8f17809036deb104fbb780325654f261, type: 2}
+  - text: "I hope you\u2019ll enjoy your stay."
+    speaker: {fileID: 11400000, guid: 8f17809036deb104fbb780325654f261, type: 2}
+  - text: And remember, feel free to come to me if you ever require assistance.
+    speaker: {fileID: 11400000, guid: 8f17809036deb104fbb780325654f261, type: 2}
+  - text: Thank you, Detective!
+    speaker: {fileID: 11400000, guid: b51eb36c2651eeb4687a9779d3a33c1a, type: 2}
+  background: {fileID: 21300000, guid: 6ebd0d172447b7f45a69981c2f4a8b04, type: 3}
+  nextScene: {fileID: 11400000, guid: a2e11066ab72bc44f9226b4850435674, type: 2}
