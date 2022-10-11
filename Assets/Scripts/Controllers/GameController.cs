@@ -32,6 +32,7 @@ public class GameController : MonoBehaviour
                 {
                     currentScene = currentScene.nextScene;
                     bottomBar.PlayScene(currentScene);
+                    bottomBar.GetComponent<RectTransform>().localScale = new Vector3(0f,0f,0f);
                 }
                 else
                 {
