@@ -15,19 +15,20 @@ MonoBehaviour:
   sentences:
   - text: "Howdy. The name\u2019s Detective Shrooms\u2026"
     speaker: {fileID: 11400000, guid: 8f17809036deb104fbb780325654f261, type: 2}
-  - text: "I\u2019m an ace detective who\u2019s been called to this village."
+  - text: "I\u2019m an ace detective, based in this tiny village."
     speaker: {fileID: 11400000, guid: 8f17809036deb104fbb780325654f261, type: 2}
   - text: Mushtown is known as a quiet, peaceful place.
     speaker: {fileID: 11400000, guid: 8f17809036deb104fbb780325654f261, type: 2}
-  - text: But even the calmest villages have their mysteries!
+  - text: But even the calmest places have their mysteries!
     speaker: {fileID: 11400000, guid: 8f17809036deb104fbb780325654f261, type: 2}
-  - text: "I\u2019ve been called into investigate a suspicious looking person on
-      the premises."
+  - text: Today I'll investigate our newest resident. A certain individual named,
+      'Tomato.'
     speaker: {fileID: 11400000, guid: 8f17809036deb104fbb780325654f261, type: 2}
-  - text: "They are known as \u2018Tomato.\u2019 I\u2019m not sure what that means,
-      but I don\u2019t think they\u2019re any regular mushroom\u2026"
+  - text: I don't think they're any regular mushroom... perhaps not even a shroom
+      at all.
     speaker: {fileID: 11400000, guid: 8f17809036deb104fbb780325654f261, type: 2}
-  - text: "It\u2019s time to investigate!"
+  - text: The truth is out there. By speaking with other residents and Tomato himself,
+      let's uncover the mystery!
     speaker: {fileID: 11400000, guid: 8f17809036deb104fbb780325654f261, type: 2}
   background: {fileID: 21300000, guid: c89444c249164c644af0e1cecf2daa15, type: 3}
   nextScene: {fileID: 11400000, guid: f7d249c8cababeb4382c9f9630e40abe, type: 2}
