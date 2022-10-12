@@ -443,8 +443,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Detective Shrooms
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6e17f9698309c16438c627be739c2e30, type: 2}
+  m_sharedMaterial: {fileID: 726172058861482330, guid: 6e17f9698309c16438c627be739c2e30, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1432,8 +1432,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: ' '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b66d223e80d6dd04e887f325384ec92f, type: 2}
+  m_sharedMaterial: {fileID: 7654878174983757758, guid: b66d223e80d6dd04e887f325384ec92f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
